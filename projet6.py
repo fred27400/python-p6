@@ -1,4 +1,4 @@
-#! /usr/bin/python3.8
+#! /usr/bin/python2.7
 # -*- coding:utf-8 -*-
 import Tkinter
 import os
