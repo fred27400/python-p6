@@ -5,12 +5,11 @@
 import ldap
 import ldap.modlist as modlist
 
-
+# Création de la variable adduser
 adduser = raw_input('adduser: ')
 
 # ouvre la connexion ldap du serveur windows 192.168.1.2
 print('initializing ..')
-
 conn = ldap.initialize('ldap://192.168.1.2')
 conn.protocol_version = 3
 conn.set_option(ldap.OPT_REFERRALS, 0)
@@ -30,7 +29,8 @@ modlist = {
     'userPrincipalName': (str(adduser) + '@aicp5.local'),
     'mail': (str(adduser) + '@aicp5.local'),
     'userPassword': 'Frederic16..',
-    'description': 'test'
+    'description': 'test',
+    'pwdLastSet': '-1'
 }
 
 # Creation du nouvel utilisateur

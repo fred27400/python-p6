@@ -5,12 +5,11 @@
 import ldap
 import ldap.modlist as modlist
 
-
+# création de la variable user
 user = raw_input('user: ')
 
 # ouvre la connexion ldap du serveur windows 192.168.1.2
 print('initializing ..')
-
 conn = ldap.initialize('ldap://192.168.1.2')
 conn.protocol_version = 3
 conn.set_option(ldap.OPT_REFERRALS, 0)

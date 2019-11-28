@@ -1,53 +1,53 @@
-#! /usr/bin/python2.7
+#! /usr/bin/python
 # -*- coding:utf-8 -*-
 import Tkinter
 import os
 
-
+# Création de la sous fenêtre "à propos"
 def show_about():
     about_window = Tkinter.Toplevel(app)
     about_window.title("A propos")
     lb = Tkinter.Label(about_window, text="Ce script automatise l'administration de windows ou de linux!!! \n\nCréateur : Mr Frédéric Seguin \n\nProjet 6 AIC Openclassrooms ")
     lb.pack()
 
-
+# appel des différents scripts d'automatisation
 def users_list():
-    os.system('python2.7 listutilsad.py')
+    os.system('python listutilsad.py')
 
 
 def create_utils():
-    os.system('python2.7 createutilswin.py')
+    os.system('python createutilswin.py')
 
 
 def activ_utils():
-    os.system('python2.7 activutilswin.py')
+    os.system('python activutilswin.py')
 
 
 def suppr_utils():
-    os.system('python2.7 supprutilswin.py')
+    os.system('python supprutilswin.py')
 
 
 def sauv_win():
-    os.system('python 2.7 sauvegardewin.py')
+    os.system('python  sauvegardewin.py')
 
 
 def list_users():
-    os.system('python2.7 listutilslinux.py')
+    os.system('python listutilslinux.py')
 
 
 def create_users():
-    os.system('python2.7 creatutilslinux.py')
+    os.system('python createutilslinux.py')
 
 
 def suppr_users():
-    os.system('python2.7 supprutilslinux.py')
+    os.system('python supprutilslinux.py')
 
 
 def sauv_linux():
-    os.system('python2.7 sauvegardelinux.py')
+    os.system('python sauvegardelinux.py')
 
 def nmap_grep():
-    os.system('python2.7 nmap_res_win_linux.py')
+    os.system('python nmap_res_win_linux.py')
 
 
 # Création de la fenêtre + paramétrage
@@ -80,7 +80,7 @@ Linux_users.add_command(label="Suppression utilisateur Linux", command=suppr_use
 # quatrième menu
 Sauvegarde = Tkinter.Menu(mainmenu, tearoff=0)
 Sauvegarde.add_command(label="Sauvegarde Linux dossier home", command=sauv_linux)
-Sauvegarde.add_command(label="Sauvegarde Win dossier users", command=sauv_win)
+Sauvegarde.add_command(label="Sauvegarde Win dossier donnees", command=sauv_win)
 
 # Cinquième menu
 Quitter = Tkinter.Menu(mainmenu, tearoff=0)

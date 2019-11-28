@@ -1,10 +1,11 @@
 #! /usr/bin/python2.7
 # -*- coding:utf-8 -*-
 
+# import des modules
 import os
 
-os.system('net user > users.txt')
-users = Path('./users.txt').read_text()
-print(users)
+# envoi de la commande pour sortir la liste des utilisateurs
+os.system('net user')
+print('list des utilisateurs')
 
 
