@@ -25,26 +25,26 @@
 #Un menu tkinter se lancant sur la machine linux ubuntu 18.04 desktop vous permet de lancer les 
 #différents scripts d'automatisation, il se trouve sur projet6.py.
 #Il contient différents menus :
-#.  Reseau
-#.  Windows_users
-#.  Linux_users
-#.  Sauvegarde
-#.  Quitter
-#.  A propos
-#     
+# .  Reseau
+# .  Windows_users
+# .  Linux_users
+# .  Sauvegarde
+# .  Quitter
+# .  A propos
+#      
 #Le menu Reseau, contient à ce jour un script Nmap pour deux sous réseau (un reseau linux, un reseau windows)
 #Le menu windows-users, contient à ce jour 4 scripts :
-#. Liste utilisateur windows
-#. Creation utilisateur AD 
-#. Activation utilisateur AD
-#. Supression utilisateur AD
+# . Liste utilisateur windows
+# . Creation utilisateur AD 
+# . Activation utilisateur AD
+# . Supression utilisateur AD
 #Le menu linux-users, contient à ce jour 3 scripts :
-#. Liste utilisateur linux
-#. Création utilisateur linux
-#. Suppression utilisateur linux
+# . Liste utilisateur linux
+# . Création utilisateur linux
+# . Suppression utilisateur linux
 #Le menu Sauvegarde, contient à ce jour 2 scripts :
-#. Sauvegarde linux dossier home
-#. Sauvegarde windows dossier données
+# . Sauvegarde linux dossier home
+# . Sauvegarde windows dossier données
 #     
 #Tous ces scripts se lancent via une connexion ssh ou pexpect pxssh ou une connexion ldap distant.
 
