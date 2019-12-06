@@ -2,8 +2,9 @@
 #
 # Automatiser la gestion utilisateur et la sauvegarde de dossiers Windows/Linux    
 # 
-# Ce script Python à été créé afin d'effectuer des sauvegardes de manières automatisé et simple,  
-# il permet aussi la gestion des utilisateurs.                                                    
+#
+#
+# Ce script Python à été créé afin d'effectuer des sauvegardes de manières automatisé et simple, il permet aussi la gestion des utilisateurs.                                                    
 # Un fenetrage tkinter(projet6.py) permet d'avoir un menu des différents scripts d'automatisation.
 #                                                                                                 
 #                                                                                                 
