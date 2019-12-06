@@ -1,23 +1,23 @@
-# python-p6
-
-################################################################################################### 
-#                                                                                                 #
-# #######  automatiser la gestion utilisateur et la sauvegarde de dossier windows/linux    ########
-#                                                                                                 #
-# #################################################################################################
-#                                                                                                 #
-# Ce script Python à été créé afin d'effectuer des sauvegardes de manières automatisé et simple,  #
-# il permet aussi la gestion des utilisateurs.                                                    #
-# Un fenetrage tkinter(projet6.py) permet d'avoir un menu des différents scripts d'automatisation.#
-#                                                                                                 #
-# #################################################################################################
-#                                                                                                 #
-# Ecrit par : Frederic Seguin                                                                     #                                  
-# Date de création : 05/11/2019                                                                   #
-# Dernière modification : 26/11/2019                                                              #
-# Testé avec : Python 2.7                                                                         #
-#                                                                                                 #
-# #################################################################################################
+# Projet 6 - AIC Openclassrooms
+#
+# Automatiser la gestion utilisateur et la sauvegarde de dossiers Windows/Linux    
+# 
+# Ce script Python à été créé afin d'effectuer des sauvegardes de manières automatisé et simple,  
+# il permet aussi la gestion des utilisateurs.                                                    
+# Un fenetrage tkinter(projet6.py) permet d'avoir un menu des différents scripts d'automatisation.
+#                                                                                                 
+#                                                                                                 
+# Ecrit par : Frederic Seguin
+#                                  
+# Date de création : 05/11/2019
+#
+# Dernière modification : 26/11/2019
+#
+# Testé avec : Python 2.7                                                                         
+#                                                                                                 
+# Ce propgramme/scripts sont sous Licence Publique Générale GNU V3
+#
+#
 #
 #Ces différents scripts ont été écrit pour un réseau constitué d'une machine Linux ubuntu 18.04 
 #desktop gérant deux réseaux en 192.168.0.0/24 (linux) et 192.168.1.0/24 (windows)
