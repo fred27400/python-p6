@@ -21,12 +21,12 @@
 #
 #
 # Fonctionemment du script
-Mettre les diffeérents script sous un même dossier.
+Mettre les différents script sous un même dossier.
 Lancez le script projet6.py en tout premier. Il vous affichera la fenetre de gestion des différents scripts d'automatisation.
 
-#Ces différents scripts ont été écrit pour un réseau constitué d'une machine Linux ubuntu 18.04 desktop gérant deux réseaux en 192.168.0.0/24 (linux) et 192.168.1.0/24 (windows)
+Ces différents scripts ont été écrit pour un réseau constitué d'une machine Linux ubuntu 18.04 desktop gérant deux réseaux en 192.168.0.0/24 (linux) et 192.168.1.0/24 (windows)
 
-#Un menu tkinter se lancant sur la machine linux ubuntu 18.04 desktop vous permet de lancer les différents scripts d'automatisation, il se trouve sur projet6.py. Il contient différents menus :
+Un menu tkinter se lancant sur la machine linux ubuntu 18.04 desktop vous permet de lancer les différents scripts d'automatisation, il se trouve sur projet6.py. Il contient différents menus :
 # .  Reseau
 # .  Windows_users
 # .  Linux_users
@@ -34,8 +34,9 @@ Lancez le script projet6.py en tout premier. Il vous affichera la fenetre de ges
 # .  Quitter
 # .  A propos
 #      
-#Le menu Reseau, contient à ce jour un script Nmap pour deux sous réseau (un reseau linux, un reseau windows)
-#Le menu windows-users, contient à ce jour 4 scripts :
+Le menu Reseau, contient à ce jour un script Nmap pour deux sous réseau (un reseau linux, un reseau windows)
+#
+Le menu windows-users, contient à ce jour 4 scripts :
 # . Liste utilisateur windows
 # . Creation utilisateur AD 
 # . Activation utilisateur AD
