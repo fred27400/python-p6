@@ -20,7 +20,7 @@
 #
 #
 #
-# Fonctionemment du script
+# Fonctionnement du script
 Mettre les différents script sous un même dossier.
 Lancez le script projet6.py en tout premier. Il vous affichera la fenetre de gestion des différents scripts d'automatisation.
 
