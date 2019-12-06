@@ -24,7 +24,7 @@
 Mettre les différents script sous un même dossier.
 Lancez le script projet6.py en tout premier. Il vous affichera la fenetre de gestion des différents scripts d'automatisation.
 
-#[ScreenShot] (https://github.com/fred27400/python-p6/blob/master/photo/menu.png)
+#![ScreenShot](https://github.com/fred27400/python-p6/blob/master/photo/menu.png)
 
 Ces différents scripts ont été écrit pour un réseau constitué d'une machine Linux ubuntu 18.04 desktop gérant deux réseaux en 192.168.0.0/24 (linux) et 192.168.1.0/24 (windows)
 
