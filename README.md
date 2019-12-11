@@ -54,7 +54,7 @@ Le menu Reseau, contient à ce jour un script Nmap pour deux sous réseau (un re
 #
 #Tous ces scripts se lancent via une connexion ssh ou pexpect pxssh ou une connexion ldap distant.
 
-
+#![ScreenShot](https://github.com/fred27400/python-p6/blob/master/photo/plan.png)
 
      
      . 
