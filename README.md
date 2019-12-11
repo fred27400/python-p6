@@ -63,5 +63,29 @@ Le menu Reseau, contient à ce jour un script Nmap pour deux sous réseau (un re
 #listutilsad.py : lance le script listutilsad1.py
 #
 #listutilsad1.py : récupère la liste des utilisateurs windows
+#
+#creatutilswin.py : créée l'utilisateur demandé sur le serveur Windows AD
+#
+#activutilswin.py : active l'utilisateur demandé sur le serveur Windows AD
+#
+#supprutilswin.py : supprime l'utilisateur demandé sur le serveur Windows AD
+#
+#listuilslinux.py : récupère la liste utilisateurs linux
+#
+#creatutilslinux.py : créée l'utilisateur demandé linux
+#
+#supprutilslinux.py : supprime l'utilisateur demandé linux
+#
+#sauvegardewin.py : lance le script sauvegardewin1.py
+#
+#sauvegardewin1.py : lance la sauvegarde sur le dossier demandé dans le script.
+#
+#sauvegardelinux.py : lance le script sauvegardelinux1.py
+#
+#sauvegardelinux1.py : lance la sauvegarde sur le dossier demandé dans le script.
+#
+#quitter : quitte le programme d'automatisation des taches administrateur.
+#
+#a propos : affiche les infos du programme.
 
 
