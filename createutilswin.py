@@ -1,5 +1,10 @@
 #! /usr/bin/python2.7
 # -*- coding:utf-8 -*-
+# Script permettant la création des nouveaux utilisateurs Windows Active Directory
+# Auteur : Frederic Seguin
+# Date : 10 Decembre 2019
+# Version : 1.0
+
 
 # Import des modules pour l'excecution du script
 import ldap
