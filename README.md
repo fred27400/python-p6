@@ -16,7 +16,7 @@
 #
 # Testé avec : Python 2.7                                                                         
 #                                                                                                 
-# Ce propgramme/scripts sont sous Licence Publique Générale GNU V3
+# Ce programme/scripts sont sous Licence Publique Générale GNU V3
 #
 #
 #
