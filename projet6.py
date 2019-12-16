@@ -1,5 +1,12 @@
 #! /usr/bin/python
 # -*- coding:utf-8 -*-
+# Script permettant la gestion de tous les scripts automatisation administration par un fenêtrage.
+# Auteur : Frederic Seguin
+# Date : 10 Decembre 2019
+# Version : 1.0
+
+
+# import des modules
 import Tkinter
 import os
 
