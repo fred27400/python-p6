@@ -1,5 +1,10 @@
 #! /usr/bin/python2.7
 # -*- coding:utf-8 -*-
+# Script permettant l'activation des nouveaux utilisateurs Windows Active Directory
+# Auteur : Frederic Seguin
+# Date : 10 Decembre 2019
+# Version : 1.0
+
 
 # Import des modules pour l'execution du script
 import ldap
