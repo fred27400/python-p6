@@ -5,7 +5,7 @@
 # Date : 10 Decembre 2019
 # Version : 1.0
 
-
+# import des modules
 import nmap
 import os
 
